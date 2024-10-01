@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:hint="Name:"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"/>
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:hint="Email:"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"/>
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="360dp"
+        android:hint="Moblie No"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"/>
+
+
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="530dp"
+        android:textSize="20dp"
+        android:text="Home" />
+
+</RelativeLayout>
