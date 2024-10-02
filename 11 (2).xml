@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+    <!-- ImageView in the center top -->
+
+
+
+    <!-- Fade Button (Left side, below ImageView) -->
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fade"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/imageView3"
+        android:layout_alignParentStart="true" />
+    <!-- Rotate Button (Right side, below ImageView) -->
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotate"
+        android:layout_marginEnd="76dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/imageView3"
+        android:layout_alignParentEnd="true" />
+    <!-- Zoom Button (Left side, below Fade Button) -->
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zoom"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="132dp"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/button7"
+        android:layout_alignParentStart="true" />
+    <!-- Blink Button (Right side, below Rotate Button) -->
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="blink"
+        android:layout_marginEnd="76dp"
+        android:layout_marginTop="132dp"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/button8"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="153dp"
+        app:srcCompat="@android:drawable/btn_dialog" />
+</RelativeLayout>
